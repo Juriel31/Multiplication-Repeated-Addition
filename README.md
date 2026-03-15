@@ -19,8 +19,8 @@ Example: 15 × 5 = 75
 
 ## 1.Algorithm is 
 
-start--> read (A,B)--> P(Product)=0 --> P=P+A --> B=B-1 --> B==0 yes -->Stop or No--> repeat step 4.
-   1      2               3             4        
+1.start--> 2.read (A,B)--> 3.P(Product)=0 --> 4.P=P+A --> B=B-1 --> B==0 yes -->Stop or No--> repeat step 4.
+     
 
 ## 2. DataPath Design 
 
