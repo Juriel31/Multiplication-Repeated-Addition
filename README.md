@@ -10,30 +10,25 @@ series, where I implement digital systems by separating:
 -   Controller (FSM) → controls the sequence of operations
 
 
-## Tools:
-    Vivado
+## Tools 
+Vivado
 
 ## Goal
-
 Multiply two 16-bit numbers using the repeated addition method.
 Example: 15 × 5 = 75
 
 ## 1.Algorithm is 
 
-start--> read (A,B)--> P(Product)=0 --> P=P+A --> B=B-1 --> B==0 yes -->Stop 
-                                    |----------------------------No           
+start--> read (A,B)--> P(Product)=0 --> P=P+A --> B=B-1 --> B==0 yes -->Stop or No--> repeat step 4.
+   1      2               3             4        
 
-## 2.
-DataPath Design 
+## 2. DataPath Design 
 
-## 3.
-FSM Design 
+## 3. FSM Design 
 
-## 4.
-Connection of datapath and Controller 
+## 4. Connection of datapath and Controller 
 
-## 5.
-Connection in top module
+## 5. Connection in top module
 
 ## Note
 The controller FSM is described using behavioral Verilog, while the
